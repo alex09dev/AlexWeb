@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    max-width: 50em;
+    background-color: #1e2638;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.presentacion {
+    max-width: 50em;
+    width: 100%;
+    text-align: start;
+    text-shadow: 0px 0px 20px rgb(115, 194, 255);
+    color: aliceblue;
+}
+
+.presentacion h1 {
+    margin-top: 60px;
+    font-size: 65px;
+
+}
+
+.presentacion p {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: 0px;
+
+}
+
+.llengues {
+    margin-top: 60px;
+    color: white;
+    max-width: 50em;
+    width: 100%;
+}
+.llengues .contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));   
+    gap: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.llengues .contenedor div {
+    width: 100%;
+    padding-inline: 16px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    border-radius: 9999px;
+    border: 2px solid gray;
+}
+.llengues svg {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.llengues .contenedor svg {
+    width: 45px;
+    height: 45px;
+}
+
+.llengues p {
+    width: 100%;
+
+}
+.llengues h2 {
+    font-size: 35px;
+    text-align: start;
+    text-shadow: 0px 0px 20px rgb(115, 194, 255);
+    color: aliceblue;
+}
+
+@media (max-width:800px) {
+    .llengues {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+}
+.prj h2 {
+    font-size: 35px;
+    padding-top: 23px;
+    max-width: 50em;
+    width: 100%;
+    text-align: start;
+    text-shadow: 0px 0px 20px rgb(115, 194, 255);
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+.prj svg {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.prj article img {
+    width: 100%;
+    border-radius: 20px;
+    object-view-box: inset(0%);
+    transition: 250ms all;
+}
+.prj article img:hover {
+    object-view-box: inset(20%);
+}
+.prj h3,p {
+    padding-bottom: 20px;
+}
+.prj h3 {
+    color: rgb(255, 255, 138);
+    font-size: 25px;
+}
