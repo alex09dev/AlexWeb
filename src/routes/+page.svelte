@@ -1,5 +1,6 @@
 <script>
   import Catalonia from "../lib/catalonia.svelte";
+  import Direccion from "../lib/direccion.svelte";
   import Ingles from "../lib/ingles.svelte";
   import Llengues from "../lib/llengues.svelte";
   import Projectes from "../lib/projectes.svelte";
@@ -42,6 +43,9 @@
   <article>
     <h3>Contador k'ho flipes</h3>
     <p>Projecte de contador fet amb HTML, CSS i JS.</p>
+    <a target="_blank" href="https://contadorflipante.netlify.app/">
+      <Direccion/>
+    </a>
     <img src="/contadorimagen.webp" alt="" />
   </article>
 </section>
