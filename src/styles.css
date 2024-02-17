@@ -114,7 +114,7 @@ body {
 .prj article img:hover {
     object-view-box: inset(20%);
 }
-.prj h3,p {
+.prj h3, .prj p {
     padding-bottom: 20px;
 }
 .prj h3 {
