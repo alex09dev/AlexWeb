@@ -9,7 +9,7 @@
 </script>
 
 <section class="presentacion">
-  <h1>Sóc Álex 👋</h1>
+  <h1>Sóc <presentacion-gradiente>Álex</presentacion-gradiente> 👋</h1>
 
   <p>
     El millor desenvolupador web del multiverse. Full stack, de tot menys js
