@@ -12,8 +12,8 @@
   <h1>Sóc Álex 👋</h1>
 
   <p>
-    El millor desenvolupador web del multiverse. Full stack, de tot menys js
-    (tinc traumes).
+    El millor desenvolupador web del multiverse. Programo: HTML, CSS, JavaScript i PHP.
+    (Nivell principiant amb traumes ).
   </p>
 </section>
 <section class="llengues">
@@ -48,4 +48,22 @@
     </a>
     <img src="/contadorimagen.webp" alt="" />
   </article>
+
+  <article>
+    <h3>Banderuki-game</h3>
+    <p>Projecte de joc amb banderes amb HTML, CSS i JS.</p>
+    <a target="_blank" href="https://banderas.pages.dev/">
+      <Direccion/>
+    </a>
+    <img src="/banderuki-img.png" alt="" />
+  </article> 
+
+  <article>
+    <h3>Ets neng?</h3>
+    <p>Projecte per saber el teu percentatge de nen amb HTML, CSS i JS.</p>
+    <a target="_blank" href="https://nen.pages.dev/">
+      <Direccion/>
+    </a>
+    <img src="/nen-img.png" alt="" />
+  </article>  
 </section>
