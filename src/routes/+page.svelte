@@ -40,15 +40,7 @@
   <h2>
     <Projectes /> Projectes
   </h2>
-  <article>
-    <h3>Contador k'ho flipes</h3>
-    <p>Projecte de contador fet amb HTML, CSS i JS.</p>
-    <a target="_blank" href="https://contadorflipante.netlify.app/">
-      <Direccion/>
-    </a>
-    <img src="/contadorimagen.webp" alt="" />
-  </article>
-
+  
   <article>
     <h3>Banderuki-game</h3>
     <p>Projecte de joc amb banderes amb HTML, CSS i JS.</p>
@@ -57,7 +49,7 @@
     </a>
     <img src="/banderuki-img.png" alt="" />
   </article> 
-
+  
   <article>
     <h3>Ets neng?</h3>
     <p>Projecte per saber el teu percentatge de nen amb HTML, CSS i JS.</p>
@@ -66,4 +58,13 @@
     </a>
     <img src="/nen-img.png" alt="" />
   </article>  
+  
+  <article>
+    <h3>Contador k'ho flipes</h3>
+    <p>Projecte de contador fet amb HTML, CSS i JS.</p>
+    <a target="_blank" href="https://contadorflipante.netlify.app/">
+      <Direccion/>
+    </a>
+    <img src="/contadorimagen.webp" alt="" />
+  </article>
 </section>
