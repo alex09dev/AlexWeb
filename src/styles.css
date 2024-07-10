@@ -12,13 +12,23 @@ body {
     color: #fff;
     padding-bottom: 80px;
 }
-
+section {
+    margin-block: 50px;
+}
+section h2 {
+    font-size: 35px;
+    text-align: start;
+    text-shadow: 0px 0px 20px rgb(115, 194, 255);
+    color: aliceblue;
+    margin-block: 20px;
+}
 .presentacion {
     max-width: 50em;
     width: 100%;
     text-align: start;
-    text-shadow: 0px 0px 20px rgb(115, 194, 255);
     color: aliceblue;
+
+    height: 200px;
 }
 
 .presentacion h1 {
@@ -26,12 +36,21 @@ body {
     font-size: 65px;
 
 }
+.presentacion p {
+    color: rgb(203, 203, 203);
+}
+
+presentacion-gradiente {
+    background: linear-gradient(10deg, cyan, blue);
+    background-clip: text;
+    color: transparent;
+}
 
 .presentacion p {
     margin-top: 20px;
     max-width: 400px;
     margin-left: 0px;
-
+    font-size: 20px;
 }
 
 .llengues {
@@ -77,12 +96,7 @@ body {
     width: 100%;
 
 }
-.llengues h2 {
-    font-size: 35px;
-    text-align: start;
-    text-shadow: 0px 0px 20px rgb(115, 194, 255);
-    color: aliceblue;
-}
+
 
 @media (max-width:800px) {
     .llengues {
@@ -90,16 +104,7 @@ body {
     }
     
 }
-.prj h2 {
-    font-size: 35px;
-    padding-top: 23px;
-    max-width: 50em;
-    width: 100%;
-    text-align: start;
-    text-shadow: 0px 0px 20px rgb(115, 194, 255);
-    color: aliceblue;
-    padding-bottom: 20px;
-}
+
 .prj svg {
     width: 35px;
     height: 35px;
